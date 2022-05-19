@@ -1,3 +1,17 @@
+@import "../../global.scss";
+
 .intro{
 	background-color: cadetblue;
+	display: flex;
+
+	.left{
+		background-color: $secondaryColor;
+		flex: 0.5;
+
+	}
+	.right{
+		background-color: $white;
+		flex: 0.5;
+
+	}
 }
